@@ -4,4 +4,11 @@
  * 5/7/15.
  */
 
-//alert("js is working!");
+var yearBorn = 1955;
+
+/*
+console.log("Hello World!");
+console.log(yearBorn);
+*/
+
+alert(yearBorn);
