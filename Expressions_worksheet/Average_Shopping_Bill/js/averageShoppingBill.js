@@ -4,7 +4,7 @@
  * 5/13/15.
  */
 
-alert("Average Shopping Bill");
+//alert("Average Shopping Bill");
 
 var groCost = [246, 275, 234, 298, 317];
 var groTotal = groCost[0]+groCost[1]+groCost[2]+groCost[3]+groCost[4];
