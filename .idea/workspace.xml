@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="" />
+    <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/js/lastChanceForGas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/lastChanceForGas.html" afterPath="" />
+    </list>
     <ignored path="Gabbart_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,30 +23,7 @@
     <favorites_list name="Gabbart_Lucas_SDI" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="lastChanceForGas.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/lastChanceForGas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14044943">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lastChanceForGas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/js/lastChanceForGas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#81#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,8 +90,8 @@
         <option value="$PROJECT_DIR$/Conditionals_Worksheet/conditionalsWorksheet.html" />
         <option value="$PROJECT_DIR$/Conditionals_Worksheet/celsiusFahrenheitConverter/celsiusFahrenheit.html" />
         <option value="$PROJECT_DIR$/Conditionals_Worksheet/celsiusFahrenheitConverter/js/celsiusFahrenheit.js" />
-        <option value="$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/js/lastChanceForGas.js" />
         <option value="$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/lastChanceForGas.html" />
+        <option value="$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/js/lastChanceForGas.js" />
       </list>
     </option>
   </component>
@@ -124,7 +104,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="678" />
+    <option name="width" value="749" />
     <option name="height" value="864" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -305,14 +285,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="678" height="864" extended-state="0" />
+    <frame x="0" y="23" width="749" height="864" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.025073746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4432577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -731,17 +711,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/js/lastChanceForGas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#81#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.10796221">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/lastChanceForGas/lastChanceForGas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14044943">
+        <state vertical-scroll-proportion="0.19662921">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
