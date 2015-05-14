@@ -1,7 +1,8 @@
 /**Expressions Assignment
  * Natural Gas Flowrate Calculator
  * Lucas Gabbart
- * 5/14/15.
+ * 5/14/15
+ * This calculator will provide the hourly and daily flow rates of natural gas through a flow meter based off of data retrieved from the meter run, which consists of a meter tube (measured inside diameter), an orifice plate (restrictor plate with precision opening in the center), and a flow meter (displays the difference(differential) between upstream pressure and downstream(static) pressures across the orifice plate)
  */
 
 //alert("Expressions Assignment");
@@ -14,5 +15,9 @@ calc1 = Math.sqrt(meterInput[0] * meterInput[1]);//provides square root of stati
 calc2 = calc1 * meterInput[2];//calculates flowrate per day
 calc3 = calc2 / 24;//calculates flowrate per hour
 
-console.log(calc2);
-console.log(calc3);
+hourly = "Your hourly flowrate is " + calc3.toFixed(2) + " Mcf/h.";//inserts hourly value result into text string for concatenation and printing to console
+daily = "Your daily flowrate is " + calc2.toFixed(2) + " Mcf/d.";//inserts daily value result into text string for concatenation and printing to console
+hoda = hourly.concat('\n', daily);//concatenates hourly and daily strings to print to console.log
+
+alert(hoda);//alert box notifying user of the flowrate results based on the given input values
+console.log(hoda);//prints concatenated string message to console.log with calculated results
