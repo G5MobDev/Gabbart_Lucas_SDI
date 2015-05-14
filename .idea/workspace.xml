@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Expressions/basicExpression/basicExpression.html" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Expressions/basicExpression/basicExpression.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Expressions/basicExpression/js/basicExpression.js" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Expressions/basicExpression/js/basicExpression.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/Arrays/arrays.html" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/Arrays/arrays.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/Arrays/js/arrays.js" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/Arrays/js/arrays.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/consoleLog_alert/consoleLogAlert.html" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/consoleLog_alert/consoleLogAlert.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/consoleLog_alert/js/consoleLog_alert.js" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/consoleLog_alert/js/consoleLog_alert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/definingVariables/definingVariables.html" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/definingVariables/definingVariables.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/definingVariables/js/definingVariables.js" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/definingVariables/js/definingVariables.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/stringBoolenVariables/js/stringBoolean.js" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/stringBoolenVariables/js/stringBoolean.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/Values_Variables/stringBoolenVariables/stringBoolean.html" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/Values_Variables/stringBoolenVariables/stringBoolean.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/bookBeginningJavaScript/ch2_examp1.htm" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/bookBeginningJavaScript/ch2_examp1.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/bookBeginningJavaScript/ch2_examp2.htm" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/bookBeginningJavaScript/ch2_examp2.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_2_Practice/bookBeginningJavaScript/js/script.js" afterPath="$PROJECT_DIR$/Week_2_Practice: Expressions/bookBeginningJavaScript/js/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_3_Practice/basicConditionalStatement/basicConditional.html" afterPath="$PROJECT_DIR$/Week_3_Practice: Conditionals/basicConditionalStatement/basicConditional.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Week_3_Practice/basicConditionalStatement/js/basicConditional.js" afterPath="$PROJECT_DIR$/Week_3_Practice: Conditionals/basicConditionalStatement/js/basicConditional.js" />
     </list>
     <ignored path="Gabbart_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,7 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week_3_Practice" />
+              <option name="myItemId" value="Week_3_Practice: Conditionals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -571,7 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Practice/basicConditionalStatement/js/basicConditional.js">
+    <entry file="file://$PROJECT_DIR$/Week_3_Practice: Conditionals/basicConditionalStatement/js/basicConditional.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32388663">
           <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
@@ -581,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Practice/basicConditionalStatement/basicConditional.html">
+    <entry file="file://$PROJECT_DIR$/Week_3_Practice: Conditionals/basicConditionalStatement/basicConditional.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28089887">
           <caret line="10" column="66" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
