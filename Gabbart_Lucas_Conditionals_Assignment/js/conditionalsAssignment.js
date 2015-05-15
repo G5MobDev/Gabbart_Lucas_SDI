@@ -36,12 +36,12 @@ if(!fluid){
 	fluid = prompt("You must enter the type of fluid in the well bore.");
 }
 
-gradient = (fluid == "water") ? water : oil;
+gradient = (fluid == "water") ? water : oil;//ternary operator that assigns the appropriate fluid gradient variable value to the gradient variable to use in the final calculation
 
-hydrostatic = Number(tvd) * gradient;
+hydrostatic = Number(tvd) * gradient;//equation to determine hydrostatic pressure of the well to use in the final calculation
 
-bhp = Number(surface) + hydrostatic;
-bhp = Number(bhp.toFixed(2));
+bhp = Number(surface) + hydrostatic;//equation that provides the preliminary result of the calculation
+bhp = Number(bhp.toFixed(2));//provides the final result for bottom hole pressure that will be used in a concatenation string that will print to console.log()
 
 console.log(bhp);
 
