@@ -43,7 +43,7 @@ hydrostatic = Number(tvd) * gradient;//equation to determine hydrostatic pressur
 bhp = Number(surface) + hydrostatic;//equation that provides the preliminary result of the calculation
 bhp = Number(bhp.toFixed(2));//provides the final result for bottom hole pressure that will be used in a concatenation string that will print to console.log()
 
-console.log(bhp);
+console.log("Based on the values you entered, the bottom hole pressure of the well is " + bhp + " psi.");
 
 /*variable values tested:
 surface = 500, tvd = 10000, fluid = water;
