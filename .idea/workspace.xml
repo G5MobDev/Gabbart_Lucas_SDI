@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js" afterPath="$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js" afterPath="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js" />
     </list>
     <ignored path="Gabbart_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,24 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="do-whileLoop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/do-whileLoop.html">
+      <file leaf-file-name="forLoop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/forLoop.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.4482758">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="do-whileLoop.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js">
+      <file leaf-file-name="forLoop.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55851066">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.7180851">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,10 +108,10 @@
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/doWhileLoop/doWhileLoop.html" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/do-whileLoop.html" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/whileLoop/whileLoop.html" />
-        <option value="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/forLoop.html" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/whileLoop/js/whileLoop.js" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js" />
+        <option value="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js" />
       </list>
     </option>
   </component>
@@ -206,46 +203,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="whileLoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whileLoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="forLoop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -265,46 +222,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="forLoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="do-whileLoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="do-whileLoop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -797,24 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/forLoop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1383126">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/whileLoop/whileLoop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4482758">
@@ -844,10 +743,26 @@
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55851066">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <caret line="22" column="70" selection-start-line="6" selection-start-column="0" selection-end-line="22" selection-end-column="70" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/forLoop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4482758">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7180851">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
