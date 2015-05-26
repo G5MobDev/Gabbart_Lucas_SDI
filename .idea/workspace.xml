@@ -36,8 +36,20 @@
       <file leaf-file-name="circumferenceWorksheet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07978723">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26595744">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc;n#circle#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basicFunction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/basicFunctionStructure/js/basicFunction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -203,7 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="returningValues" />
+              <option name="myItemId" value="functionsVsProcedures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="returningValues" />
+              <option name="myItemId" value="functionsVsProcedures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -243,7 +255,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="argumentsParameters" />
+              <option name="myItemId" value="basicFunctionStructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="argumentsParameters" />
+              <option name="myItemId" value="basicFunctionStructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -617,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/basicFunctionStructure/js/basicFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45883942">
-          <caret line="17" column="1" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionInvocation/functionInvocation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44642857">
@@ -683,16 +685,6 @@
           <caret line="14" column="2" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2393617">
-          <caret line="11" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#calcAreaF#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/returningValues/js/returningValues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21276596">
-          <caret line="11" column="2" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.2393617">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
           </folding>
@@ -795,17 +787,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/argumentsParameters/js/argumentsParameters.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4787234">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2393617">
-          <caret line="12" column="1" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#calcAreaF#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/basicFunctionStructure/js/basicFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07978723">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.26595744">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc;n#circle#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
