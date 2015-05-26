@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js" afterPath="$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Gabbart_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,9 +36,11 @@
       <file leaf-file-name="stungWorksheet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07978723">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.61170214">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#stung#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +112,8 @@
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/Stung!/stungWorksheet.html" />
-        <option value="$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js" />
       </list>
     </option>
   </component>
@@ -764,9 +765,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07978723">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.61170214">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#stung#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
