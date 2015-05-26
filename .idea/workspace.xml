@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="" />
+    <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js" afterPath="$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js" />
+    </list>
     <ignored path="Gabbart_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,35 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="returningValues.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/returningValues/js/returningValues.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#52#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functionsVsProcedures.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functionsVsProcedures.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/functionsVsProcedures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1383126">
+            <state vertical-scroll-proportion="-3.4482758">
               <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functionsVsProcedures.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functionsVsProcedures.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26595744">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
-                <element signature="e#0#60#0" expanded="false" />
+                <element signature="n#!!doc;n#calcAreaF#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,8 +112,8 @@
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/returningValues/returningValues.html" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/returningValues/js/returningValues.js" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/functionVsProcedure/functionVsProcedure.html" />
-        <option value="$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/functionsVsProcedures.html" />
+        <option value="$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js" />
       </list>
     </option>
   </component>
@@ -738,29 +728,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/returningValues/js/returningValues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.21276596">
+          <caret line="11" column="2" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js">
+    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/functionsVsProcedures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#60#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-3.4482758">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/functionsVsProcedures.html">
+    <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/functionsVsProcedures/js/functionsVsProcedures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1383126">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="0.26595744">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc;n#calcAreaF#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
