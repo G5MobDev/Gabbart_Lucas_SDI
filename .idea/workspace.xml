@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js" afterPath="$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js" />
-    </list>
+    <list default="true" id="4ed1e953-6b71-4dec-b265-8f926f2900d7" name="Default" comment="" />
     <ignored path="Gabbart_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,33 +21,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="circumferenceWorksheet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/circumferenceWorksheet.html">
+      <file leaf-file-name="stungWorksheet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions_worksheet/Stung!/stungWorksheet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5172415">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state vertical-scroll-proportion="-3.4482758">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circumferenceWorksheet.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js">
+      <file leaf-file-name="stungWorksheet.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30851063">
-              <caret line="12" column="204" selection-start-line="12" selection-start-column="204" selection-end-line="12" selection-end-column="204" />
+            <state vertical-scroll-proportion="0.026595745">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
-                <element signature="n#!!doc;n#circle#0" expanded="false" />
+                <element signature="e#0#65#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicFunction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/basicFunctionStructure/js/basicFunction.js">
+      <file leaf-file-name="circumferenceWorksheet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/circumferenceWorksheet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state vertical-scroll-proportion="-5.5172415">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -73,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week_3_Practice: Conditionals/bookBeginningJavaScript/ch3_examp1.htm.html" />
-        <option value="$PROJECT_DIR$/Week_3_Practice: Conditionals/bookBeginningJavaScript/js/script.js" />
         <option value="$PROJECT_DIR$/Week_3_Practice: Conditionals/bookBeginningJavaScript/ch3_examp2.htm.xhtml" />
         <option value="$PROJECT_DIR$/Week_3_Practice: Conditionals/bookBeginningJavaScript/ch3_examp2.htm.html" />
         <option value="$PROJECT_DIR$/Week_3_Practice: Conditionals/bookBeginningJavaScript/ch3_examp1.htm" />
@@ -124,6 +120,8 @@
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/do-whileLoop/js/do-whileLoop.js" />
         <option value="$PROJECT_DIR$/Week_4_Practice: Functions/forLoop/js/forLoop.js" />
         <option value="$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/Stung!/stungWorksheet.html" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js" />
       </list>
     </option>
   </component>
@@ -196,8 +194,18 @@
               <option name="myItemId" value="Gabbart_Lucas_SDI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
+              <option name="myItemId" value="Gabbart_Lucas_SDI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gabbart_Lucas_SDI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,11 +219,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functionsVsProcedures" />
+              <option name="myItemId" value="Stung!" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,11 +237,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functionsVsProcedures" />
+              <option name="myItemId" value="Stung!" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -251,11 +259,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="basicFunctionStructure" />
+              <option name="myItemId" value="Circumference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,25 +277,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week_4_Practice: Functions" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="basicFunctionStructure" />
+              <option name="myItemId" value="Circumference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gabbart_Lucas_SDI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,20 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week_3_Practice: Conditionals/ifAndElse/js/ifAndElse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10796221">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Practice: Conditionals/elseIf/js/elseIf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4048583">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_3_Practice: Conditionals/logicalOperators/logicalOperators.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14044943">
@@ -767,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/circumferenceWorksheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5172415">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/returningValues/js/returningValues.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2393617">
@@ -805,18 +781,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_4_Practice: Functions/basicFunctionStructure/js/basicFunction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2393617">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/circumferenceWorksheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5172415">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/Stung!/stungWorksheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4482758">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_worksheet/Circumference/js/circumferenceWorksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30851063">
-          <caret line="12" column="204" selection-start-line="12" selection-start-column="204" selection-end-line="12" selection-end-column="204" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/Stung!/js/stungWorksheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026595745">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
-            <element signature="n#!!doc;n#circle#0" expanded="false" />
+            <element signature="e#0#65#0" expanded="false" />
           </folding>
         </state>
       </provider>
