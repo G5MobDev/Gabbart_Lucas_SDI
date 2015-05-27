@@ -37,10 +37,21 @@ while(age == ""){
 	age = prompt("You must enter your age to continue.");
 }
 
-var weightPounds = weightLb;
-var heightInches = heightIn;
-var weightKilos = weightKg;
-var heightCents = heightCm;
-var age = age;
+var weightPounds = Number(weightLb);
+var heightInches = Number(heightIn);
+var weightKilos = Number(weightKg);
+var heightCents = Number(heightCm);
+var ageYears = Number(age);
+var bmiMultiplier = 703;
 
+var BMI = bmiEnglish(engMet, weightPounds, heightInches, bmiMultiplier);
+
+function bmiEnglish(engMet, weight, height, bmiV){
+	if(engMet == "English"){
+		var bmi = (weight / (height * height)) * bmiV;
+		return bmi;
+	}
+}
+
+console.log(BMI.toFixed(2));
 
