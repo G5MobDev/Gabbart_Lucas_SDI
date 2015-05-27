@@ -14,27 +14,33 @@ while(engMet == ""){
 
 if(engMet == "English"){
 	var weightLb = prompt("Enter your weight in pounds.");
+	while(weightLb == ""){
+		weightLb = prompt("You must enter your weight in pounds to continue this calculation.");
+	}
 	var heightIn = prompt("Enter your height in inches.");
+	while(heightIn == ""){
+		heightIn = prompt("You must enter your height in inches to continue.");
+	}
 }else{
 	var weightKg = prompt("Enter your weight in kilograms.");
+	while(weightKg == ""){
+		weightKg = prompt("You must enter your weight in kilograms to continue this calculation.");
+	}
 	var heightCm = prompt("Enter your height in centimeters.");
-}
-
-while(weightLb == ""){
-	weightLb = prompt("You must enter your weight in pounds to continue this calculation.");
-}
-while(heightIn == ""){
-	heightIn = prompt("You must enter your height in inches to continue.");
-}
-while(weightKg == ""){
-	weightKg = prompt("You must enter your weight in kilograms to continue this calculation.");
-}
-while(heightCm == ""){
-	heightCm = prompt("You must enter your height in centimeters to continue.");
+	while(heightCm == ""){
+		heightCm = prompt("You must enter your height in centimeters to continue.");
+	}
 }
 
 var age = prompt("Please enter your age.");
 while(age == ""){
 	age = prompt("You must enter your age to continue.");
 }
+
+var weightPounds = weightLb;
+var heightInches = heightIn;
+var weightKilos = weightKg;
+var heightCents = heightCm;
+var age = age;
+
 
