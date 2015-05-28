@@ -41,17 +41,42 @@ var weightPounds = Number(weightLb);
 var heightInches = Number(heightIn);
 var weightKilos = Number(weightKg);
 var heightCents = Number(heightCm);
-var ageYears = Number(age);
-var bmiMultiplier = 703;
+//var ageYears = Number(age);
+var bmiMultiEng = 703;
+var bmiMultiMet = 100;
+var bmiEnglish = bmiEng(weightPounds, heightInches, bmiMultiEng);
+var bmiMetric = bmiMet(weightKilos, heightCents, bmiMultiMet);
 
-var BMI = bmiEnglish(engMet, weightPounds, heightInches, bmiMultiplier);
-
-function bmiEnglish(engMet, weight, height, bmiV){
-	if(engMet == "English"){
-		var bmi = (weight / (height * height)) * bmiV;
-		return bmi;
-	}
+function bmiEng(weight, height, bmiV) {
+	bmi = (weight / (height * height)) * bmiV;
+	return bmi;
+}
+function bmiMet(weight, height, bmiV){
+	bmi = weight / ((height * height) / bmiV) * bmiV;
+	return bmi;
 }
 
-console.log(BMI.toFixed(2));
+console.log(bmiMetric);
+//var bmiEng = bmiE(engMet, weightPounds, heightInches, bmiMultiplier);
+//var bmiMet = bmiM(weightKilos, heightCents);
+//console.log(bmiMet.toFixed(2));
+
+/*if(engMet == "English"){
+	console.log("Your body mass index is " + bmiEng + ".");
+}else{
+	console.log("Your body mass index is " + bmiMet + ".");
+}*/
+
+/*function bmiMetric(engMet, weight, height){
+	if(engMet == "Metric")
+		var bmi = weight / (height * height);
+	return bmi;
+}*/
+
+/*if(engMet == "English"){
+	console.log("Your body mass index is " + bmiE + ".");
+}else if(engMet == "Metric"){
+	console.log("Your body mass index is " + bmiM + ".");
+}*/
+
 
