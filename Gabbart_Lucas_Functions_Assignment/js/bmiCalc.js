@@ -46,6 +46,8 @@ var bmiMultiEng = 703;
 var bmiMultiMet = 100;
 var bmiEnglish = bmiEng(weightPounds, heightInches, bmiMultiEng);
 var bmiMetric = bmiMet(weightKilos, heightCents, bmiMultiMet);
+bmiEnglish = bmiEnglish.toFixed(2);
+bmiMetric = bmiMetric.toFixed(2);
 
 function bmiEng(weight, height, bmiV) {
 	bmi = (weight / (height * height)) * bmiV;
@@ -56,16 +58,11 @@ function bmiMet(weight, height, bmiV){
 	return bmi;
 }
 
-console.log(bmiMetric);
-//var bmiEng = bmiE(engMet, weightPounds, heightInches, bmiMultiplier);
-//var bmiMet = bmiM(weightKilos, heightCents);
-//console.log(bmiMet.toFixed(2));
-
-/*if(engMet == "English"){
-	console.log("Your body mass index is " + bmiEng + ".");
+if(engMet == "English"){
+	console.log("Your body mass index is " + bmiEnglish + ".");
 }else{
-	console.log("Your body mass index is " + bmiMet + ".");
-}*/
+	console.log("Your body mass index is " + bmiMetric + ".");
+}
 
 /*function bmiMetric(engMet, weight, height){
 	if(engMet == "Metric")
