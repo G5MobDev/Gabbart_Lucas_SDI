@@ -139,12 +139,3 @@ if(engMet == "English" && gender == "male"){
 	console.log("Ma'am,\nYour body mass index is " + bmiMetric + " and\nyour Basal Metabolic Rate is " + bmrMT + ".");
 }
 
-/*if(engMet == "English" && gender == "male"){
- console.log(bmrME);
- }else if(engMet == "English" && gender == "female"){
- console.log(bmrFE);
- }else{
- bmrMetricTernary = (engMet == "Metric" && gender == "male") ? bmrMM : bmrFM;
- console.log(bmrMetricTernary);
- }
- */
