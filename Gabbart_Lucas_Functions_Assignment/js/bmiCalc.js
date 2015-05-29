@@ -54,7 +54,7 @@ var bmrME;
 var bmrFE;
 var bmrMM;
 var bmrFM;
-var bmrMetricTernary;
+var bmrMT;
 
 var bmiE = function bmiEng(weight, height, bmiV){
 	var bmi = (weight / (height * height)) * bmiV;
@@ -72,11 +72,7 @@ var bmiM = function bmiMet(weight, height, bmiV){
 
 var bmiMetric = bmiM(weightKilos, heightCents, bmiMultiMet);
 
-if(engMet == "English"){
-	console.log(bmiEnglish);
-}else if(engMet == "Metric"){
-	console.log(bmiMetric);
-}
+
 
 function bmrMaleEnglish(){
 	var bmrM = 66;
@@ -84,6 +80,7 @@ function bmrMaleEnglish(){
 	var hM = 12.7;
 	var aM = 6.8;
 	var bmrMaleEng = bmrM + (wM * weightPounds) + (hM * heightInches) - (aM * age);
+	bmrMaleEng = bmrMaleEng.toFixed(2);
 	return bmrMaleEng;//returns bmr value to variable
 }
 
@@ -95,6 +92,7 @@ function bmrFemaleEnglish(){
 	var hF = 4.7;
 	var aF = 4.7;
 	var bmrFemaleEng = bmrF + (wF * weightPounds) + (hF * heightInches) - (aF * age);
+	bmrFemaleEng = bmrFemaleEng.toFixed(2);
 	return bmrFemaleEng;
 }
 
@@ -106,6 +104,7 @@ function bmrMaleMetric(){
 	var hM = 5;
 	var aM = 6.8;
 	var bmrMaleMet = bmrM + (wM * weightKilos) + (hM * heightCents) - (aM * age);
+	bmrMaleMet = bmrMaleMet.toFixed(2);
 	return bmrMaleMet;
 }
 
@@ -117,28 +116,30 @@ function bmrFemaleMetric(){
 	var hF = 1.8;
 	var aF = 4.7;
 	var bmrFemaleMet = bmrF + (wF * weightKilos) + (hF * heightCents) - (aF * age);
+	bmrFemaleMet = bmrFemaleMet.toFixed(2);
 	return bmrFemaleMet;
 }
 
 bmrFM = bmrFemaleMetric();
 
+bmrMT = (engMet == "Metric" && gender == "male") ? bmrMM : bmrFM;
+
 if(engMet == "English" && gender == "male"){
-	console.log(bmrME);
+	console.log("Sir,\nYour body mass index is " + bmiEnglish + " and\nyour Basal Metabolic Rate is " + bmrME + ".");
 }else if(engMet == "English" && gender == "female"){
-	console.log(bmrFE);
+	console.log("Ma'am,\nYour body mass index is " + bmiEnglish + " and\nyour Basal Metabolic Rate is " + bmrFE + ".");
+}else if(engMet == "Metric" && gender == "male"){
+	console.log("Sir,\nYour body mass index is " + bmiMetric + " and\nyour Basal Metabolic Rate is " + bmrMT + ".");
 }else{
-	bmrMetricTernary = (engMet == "Metric" && gender == "male") ? bmrMM : bmrFM;
-	console.log(bmrMetricTernary);
+	console.log("Ma'am,\nYour body mass index is " + bmiMetric + " and\nyour Basal Metabolic Rate is " + bmrMT + ".");
 }
 
 /*if(engMet == "English" && gender == "male"){
-	console.log("Sir,\nYour body mass index is " + bmiEnglishM + " and\nyour Basal Metabolic Rate is " + bmrME + ".");
-}else if(engMet == "English" && gender == "female"){
-	console.log("Ma'am,\nYour body mass index is " + bmiEnglishF + " and\nyour Basal Metabolic Rate is " + bmrFE + ".");
-}else if(engMet == "Metric" && gender == "male"){
-	console.log("Sir,\nYour body mass index is " + bmiMetricM + " and\nyour Basal Metabolic Rate is " + bmrMM + ".");
-}else{
-	console.log("Ma'am,\nYour body mass index is " + bmiMetricF + " and\nyour Basal Metabolic Rate is " + bmrFM + ".");
-}
-*/
-
+ console.log(bmrME);
+ }else if(engMet == "English" && gender == "female"){
+ console.log(bmrFE);
+ }else{
+ bmrMetricTernary = (engMet == "Metric" && gender == "male") ? bmrMM : bmrFM;
+ console.log(bmrMetricTernary);
+ }
+ */
