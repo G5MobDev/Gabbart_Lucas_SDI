@@ -12,6 +12,16 @@ while(engMet == ""){
 	engMet = prompt("Please enter the type of units you wish to use:\nEnglish or Metric");//this code will cause this prompt to loop until the user enters the type of units they wish to use
 }
 
+var gender = prompt("Are you male or female?");
+while(gender == ""){
+	gender = prompt("You must enter your gender to continue.");
+}
+
+var age = prompt("Please enter your age.");
+while(age == "" || isNaN(age)){
+	age = prompt("You must enter your age to continue.\nThe value must be a number.");
+}
+
 //this code will prompt the user for English units if English is entered in the first prompt box
 if(engMet == "English"){
 	var weightLb = prompt("Enter your weight in pounds.");//this prompt will ask the user for their weight in pounds
@@ -33,88 +43,102 @@ if(engMet == "English"){
 	}
 }
 
-var age = prompt("Please enter your age.");
-while(age == "" || isNaN(age)){
-	age = prompt("You must enter your age to continue.\nThe value must be a number.");
-}
-
-var gender = prompt("Are you male or female?");
-while(gender == ""){
-	gender = prompt("You must enter your gender to continue.");
-}
 var weightPounds = Number(weightLb);
 var heightInches = Number(heightIn);
 var weightKilos = Number(weightKg);
 var heightCents = Number(heightCm);
-var ageYears = Number(age);
-//var bmiMultiEng = 703;
-//var bmiMultiMet = 100;
+age = Number(age);
+var bmiMultiEng = 703;
+var bmiMultiMet = 100;
+var bmrME;
+var bmrFE;
+var bmrMM;
+var bmrFM;
+var bmrMetricTernary;
 
-/*var bmiE = function bmiEng(weight, height, bmiV){
-	bmi = (weight / (height * height)) * bmiV;
+var bmiE = function bmiEng(weight, height, bmiV){
+	var bmi = (weight / (height * height)) * bmiV;
+	bmi = bmi.toFixed(2);
 	return bmi;
 };
+
+var bmiEnglish = bmiE(weightPounds, heightInches, bmiMultiEng);
+
 var bmiM = function bmiMet(weight, height, bmiV){
 	bmi = weight / ((height * height) / bmiV) * bmiV;
+	bmi = bmi.toFixed(2);
 	return bmi;
 };
-var bmiEnglish = bmiE(weightPounds, heightInches, bmiMultiEng);
-var bmiMetric = bmiM(weightKilos, heightCents, bmiMultiMet);
-bmiEnglish = bmiEnglish.toFixed(2);
-bmiMetric = bmiMetric.toFixed(2);
-*/
 
-function bmrMaleEnglish(w, h, a,) {
+var bmiMetric = bmiM(weightKilos, heightCents, bmiMultiMet);
+
+if(engMet == "English"){
+	console.log(bmiEnglish);
+}else if(engMet == "Metric"){
+	console.log(bmiMetric);
+}
+
+function bmrMaleEnglish(){
 	var bmrM = 66;
 	var wM = 6.23;
 	var hM = 12.7;
 	var aM = 6.8;
-	var bmrMaleEng = bmrM + (wM * w) + (hM * h) - (aM * a);
-	return bmrMaleEng;//returns bmr value to variable "BMR"
+	var bmrMaleEng = bmrM + (wM * weightPounds) + (hM * heightInches) - (aM * age);
+	return bmrMaleEng;//returns bmr value to variable
 }
 
-function bmrFemaleEnglish(w, h, a){
+bmrME = bmrMaleEnglish();
+
+function bmrFemaleEnglish(){
 	var bmrF = 655;
 	var wF = 4.35;
 	var hF = 4.7;
 	var aF = 4.7;
-	var bmrFemaleEng = bmrF + (wF * w) + (hF * h) - (aF * a);
+	var bmrFemaleEng = bmrF + (wF * weightPounds) + (hF * heightInches) - (aF * age);
 	return bmrFemaleEng;
 }
 
-function bmrMaleMetric(w, h, a){
+bmrFE = bmrFemaleEnglish();
+
+function bmrMaleMetric(){
 	var bmrM = 66;
 	var wM = 13.7;
 	var hM = 5;
 	var aM = 6.8;
-	var bmrMaleMet = bmrM + (wM * w) + (hM * h) - (aM * a);
+	var bmrMaleMet = bmrM + (wM * weightKilos) + (hM * heightCents) - (aM * age);
 	return bmrMaleMet;
 }
 
-function bmrFemaleMetric(w, h, a){
+bmrMM = bmrMaleMetric();
+
+function bmrFemaleMetric(){
 	var bmrF = 655;
 	var wF = 9.6;
 	var hF = 1.8;
 	var aF = 4.7;
-	var bmrFemaleMet = bmrF + (wF * w) + (hF * h) - (aF * a);
+	var bmrFemaleMet = bmrF + (wF * weightKilos) + (hF * heightCents) - (aF * age);
 	return bmrFemaleMet;
 }
 
-if(engMet == "English" && gender == "male") {
-	bmrMaleEnglish(weightPounds, heightInches, ageYears);
+bmrFM = bmrFemaleMetric();
+
+if(engMet == "English" && gender == "male"){
+	console.log(bmrME);
 }else if(engMet == "English" && gender == "female"){
-	bmrFemaleEnglish(weightPounds, heightInches, ageYears);
-}else if(engMet == "Metric" && gender == "male"){
-	bmrMaleMetric(weightKilos, heightCents, ageYears);
+	console.log(bmrFE);
 }else{
-	bmrFemaleMetric(weightKilos, heightCents, ageYears);
+	bmrMetricTernary = (engMet == "Metric" && gender == "male") ? bmrMM : bmrFM;
+	console.log(bmrMetricTernary);
 }
 
-//var BMR = bmrMaleEng();//invokes the function to calculate Basal Metabolic Rate
-
-/*if(engMet == "English"){
-	console.log("Your body mass index is " + bmiEnglish + ".");
+/*if(engMet == "English" && gender == "male"){
+	console.log("Sir,\nYour body mass index is " + bmiEnglishM + " and\nyour Basal Metabolic Rate is " + bmrME + ".");
+}else if(engMet == "English" && gender == "female"){
+	console.log("Ma'am,\nYour body mass index is " + bmiEnglishF + " and\nyour Basal Metabolic Rate is " + bmrFE + ".");
+}else if(engMet == "Metric" && gender == "male"){
+	console.log("Sir,\nYour body mass index is " + bmiMetricM + " and\nyour Basal Metabolic Rate is " + bmrMM + ".");
 }else{
-	console.log("Your body mass index is " + bmiMetric + ".");
+	console.log("Ma'am,\nYour body mass index is " + bmiMetricF + " and\nyour Basal Metabolic Rate is " + bmrFM + ".");
 }
 */
+
